@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wmv-SO-hVV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="o3H-AS-twm">
+            <objects>
+                <viewController id="Wmv-SO-hVV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HWu-w3-DwY"/>
+                        <viewControllerLayoutGuide type="bottom" id="LNV-WG-FIM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xJr-f6-Jml">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fast-car-frenzy-icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="81P-Zs-GIe">
+                                <rect key="frame" x="180" y="186" width="240" height="228"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.94901960780000005" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="81P-Zs-GIe" firstAttribute="centerX" secondItem="xJr-f6-Jml" secondAttribute="centerX" id="RSO-e5-u1o"/>
+                            <constraint firstItem="81P-Zs-GIe" firstAttribute="centerY" secondItem="xJr-f6-Jml" secondAttribute="centerY" id="wyH-8c-WpR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yg2-f7-DBc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQw-2D-MXU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fast-car-frenzy-icon-1" width="234" height="170"/>
+    </resources>
+</document>
